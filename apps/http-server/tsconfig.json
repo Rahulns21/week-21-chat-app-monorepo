@@ -1,12 +1,7 @@
 {
-  "compilerOptions": {
-    "target": "es2016",                                  
-    "module": "commonjs",                                
+  "extends": "../../packages/typescript-config/backends.json",
+  "compilerOptions": {                               
     "rootDir": "./src",                                  
-    "outDir": "./dist",                                   
-    "noEmitOnError": true,                            
-    "esModuleInterop": true,                             
-    "strict": true,                                      
-    "skipLibCheck": true                                 
+    "outDir": "./dist",                                                               
   }
 }
